@@ -1,0 +1,86 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-color: gray;
+    background-image: url(images/images/libros-viejos.jpg);
+    background-size:auto;
+}
+
+.container{
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    height: 120px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+nav{
+    background-color: rgba(0, 0, 0,0.2);
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 15px;
+}
+
+nav a {
+    color: rgb(38, 36, 36);
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    transition: 0.5s;
+    font-size: 25px;
+    color: rgb(134, 48, 14);
+    background-color: rgba(0, 0, 0,0.3);
+}
+
+main{
+    height: 300px;
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-bottom: 30px;
+    color:rgb(31, 26, 21);
+    font-family: 'Oswald', sans-serif;
+}
+
+main h1{
+    font-size: 80px;
+    color : rgb(37, 18, 10);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main h1:hover{
+    color: rgb(79, 33, 14);
+    font-size: 85px;
+    transition: 0.5s;
+    text-shadow: 2px 3px 4px rgb(41, 2, 2);
+}
+
+.slide{
+    margin-top: 20px;
+}
+
+.slide img{
+    width: 309px;
+    height: 475px;
+    margin-bottom: 100px;
+    margin-left: 400px;
+    margin-right: 500px;
+}
+
+footer p{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(41, 6, 6);
+}
